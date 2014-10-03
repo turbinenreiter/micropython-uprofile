@@ -22,3 +22,5 @@ fun1(10)                                 # 3.
 
 Profiler.print_results(time_unit='s')    # 4.
 ```
+
+``Profiler.results`` contains a dictonary, that holds a list of the execution times for each time the function ran.
